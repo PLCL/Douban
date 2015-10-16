@@ -29,6 +29,7 @@
     RootTabBarController * tabBarVC = [[RootTabBarController alloc] init];
     self.window.rootViewController = tabBarVC;
     [tabBarVC release];
+    NSLog(@"hello world");
     
     return YES;
 }
