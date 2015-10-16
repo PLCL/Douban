@@ -30,6 +30,7 @@
     self.window.rootViewController = tabBarVC;
     [tabBarVC release];
     NSLog(@"hello world");
+    NSLog(@"第二次修改");
     
     return YES;
 }
